@@ -1,0 +1,55 @@
+body{
+    font-size: 16px;
+    font-family: Helvetica;
+    line-height: 23px;
+
+}
+#wrapper{
+    margin: 0 auto;
+    width: 960px;
+    min-height: 500px;
+    background: bisque;
+    padding-top: 50px;
+    padding-left: 200px;
+}
+input{
+    padding: 10px;
+    border-radius: 3px;
+}
+.btn{
+    padding: 10px;
+    border-radius: 3px;
+    background: burlywood;
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+}
+a:hover{
+    color: brown;
+}
+.btn:hover{
+    background: brown;
+    color: #ffffff;
+}
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+}
+select{
+    padding: 10px;
+    font-size: 16px;
+    background: burlywood;
+}
+select:hover{
+    background: brown;
+    color: #ffffff;
+}
+fieldset{
+    width: 650px;
+    border-radius: 5px;
+    border: brown 1px dotted;
+}
