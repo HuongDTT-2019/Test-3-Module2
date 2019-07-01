@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class ProductServiceImpl implements ProductService {
+public class ProductServiceImpl implements GeneralService<Product> {
 
     private static Map<Integer, Product> products;
     static {
